@@ -1,4 +1,3 @@
-
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import { Menu, X } from "lucide-react";
@@ -20,7 +19,7 @@ const Navbar = () => {
               <img
                 src="/lovable-uploads/d487a2d0-2121-42d6-b9f2-1d64c8c4c4b7.png"
                 alt="Darsen Logo"
-                className="h-25 w-auto"
+                className="h-20 w-auto"
               />
             </Link>
           </div>
@@ -57,7 +56,6 @@ const Navbar = () => {
         </div>
       </div>
       
-      {/* Mobile menu */}
       {isMenuOpen && (
         <div className="md:hidden">
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 bg-white shadow-lg">
