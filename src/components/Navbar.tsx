@@ -1,3 +1,4 @@
+
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import { Menu, X } from "lucide-react";
@@ -19,7 +20,7 @@ const Navbar = () => {
               <img
                 src="/lovable-uploads/d487a2d0-2121-42d6-b9f2-1d64c8c4c4b7.png"
                 alt="Darsen Logo"
-                className="h-20 w-auto"
+                className="h-22 w-auto"
               />
             </Link>
           </div>
