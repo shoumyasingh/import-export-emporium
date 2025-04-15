@@ -17,7 +17,7 @@ const Footer = () => {
             <img
               src="/lovable-uploads/d487a2d0-2121-42d6-b9f2-1d64c8c4c4b7.png"
               alt="Darsen Logo"
-              className="h-22 w-auto mb-4 brightness-0 invert"
+              className="h-20 w-auto mb-4 brightness-0 invert"
             />
             <p className="text-gray-400 mb-4 max-w-md">
               Darsen is your trusted partner for global import and export solutions. We connect businesses worldwide with quality products and reliable services.
