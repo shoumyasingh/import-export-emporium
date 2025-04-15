@@ -13,13 +13,13 @@ const Navbar = () => {
   return (
     <nav className="bg-white sticky top-0 z-50 shadow-sm">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between h-20">
+        <div className="flex justify-between h-28">
           <div className="flex items-center">
             <Link to="/" className="flex-shrink-0 flex items-center">
               <img
-                src="/lovable-uploads/d487a2d0-2121-42d6-b9f2-1d64c8c4c4b7.png"
+                src="/lovable-uploads/logo3.png"
                 alt="Darsen Logo"
-                className="h-21 w-auto"
+                className="h-20 w-auto"
               />
             </Link>
           </div>

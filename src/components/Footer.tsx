@@ -15,9 +15,9 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8">
           <div className="lg:col-span-2">
             <img
-              src="/lovable-uploads/d487a2d0-2121-42d6-b9f2-1d64c8c4c4b7.png"
+              src="/lovable-uploads/logo3.png"
               alt="Darsen Logo"
-              className="h-20 w-auto mb-4 brightness-0 invert"
+              className="h-20 w-auto"
             />
             <p className="text-gray-400 mb-4 max-w-md">
               Darsen is your trusted partner for global import and export solutions. We connect businesses worldwide with quality products and reliable services.
@@ -65,7 +65,7 @@ const Footer = () => {
               <li>123 Global Trade Center</li>
               <li>New York, NY 10001</li>
               <li>+1 (555) 123-4567</li>
-              <li>info@darsenimportexport.com</li>
+              <li>darsenenterprises@gmail.com</li>
             </ul>
           </div>
         </div>

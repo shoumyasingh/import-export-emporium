@@ -141,8 +141,8 @@ const Contact = () => {
                 <MapPin className="h-6 w-6 text-darsen-blue mr-4 mt-1" />
                 <div>
                   <h4 className="text-lg font-medium text-darsen-black">Our Address</h4>
-                  <p className="text-darsen-gray">123 Global Trade Center, Business District</p>
-                  <p className="text-darsen-gray">New York, NY 10001, USA</p>
+                  <p className="text-darsen-gray">A/701, Ajanta Empress,Sector – 19, Airoli</p>
+                  <p className="text-darsen-gray">Navi Mumbai, 400708, Maharashtra ,India </p>
                 </div>
               </div>
               
@@ -150,8 +150,9 @@ const Contact = () => {
                 <Phone className="h-6 w-6 text-darsen-blue mr-4 mt-1" />
                 <div>
                   <h4 className="text-lg font-medium text-darsen-black">Phone</h4>
-                  <p className="text-darsen-gray">+1 (555) 123-4567</p>
-                  <p className="text-darsen-gray">+1 (555) 987-6543</p>
+                  <p className="text-darsen-gray">+91 9821841769</p>
+                  <p className="text-darsen-gray">+91 9082511136</p>
+                  {/* <p className="text-darsen-gray">+1 (555) 987-6543</p> */}
                 </div>
               </div>
               
@@ -159,8 +160,8 @@ const Contact = () => {
                 <Mail className="h-6 w-6 text-darsen-blue mr-4 mt-1" />
                 <div>
                   <h4 className="text-lg font-medium text-darsen-black">Email</h4>
-                  <p className="text-darsen-gray">info@darsenimportexport.com</p>
-                  <p className="text-darsen-gray">sales@darsenimportexport.com</p>
+                  <p className="text-darsen-gray">darsenenterprises@gmail.com</p>
+                  
                 </div>
               </div>
             </div>
