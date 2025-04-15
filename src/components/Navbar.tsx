@@ -20,7 +20,7 @@ const Navbar = () => {
               <img
                 src="/lovable-uploads/d487a2d0-2121-42d6-b9f2-1d64c8c4c4b7.png"
                 alt="Darsen Logo"
-                className="h-12 w-auto"
+                className="h-16 w-auto" // Increased from h-12 to h-16
               />
             </Link>
           </div>
