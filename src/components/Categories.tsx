@@ -4,7 +4,7 @@ import CategoryCard from "./CategoryCard";
 
 const Categories = () => {
   return (
-    <section className="py-16 bg-gradient-to-b from-darsen-lightGray to-white relative overflow-hidden">
+    <section className="py-16 bg-gradient-to-b from-darsen-lightGray to-white dark:from-gray-800 dark:to-gray-900 relative overflow-hidden transition-colors duration-300">
       {/* Background decorative elements */}
       <div className="absolute inset-0 overflow-hidden">
         <div className="absolute top-20 left-10 w-32 h-32 bg-gradient-to-br from-darsen-blue/10 to-purple-400/10 rounded-full blur-2xl"></div>
@@ -13,8 +13,8 @@ const Categories = () => {
       
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="text-center mb-12 animate-fade-in">
-          <h2 className="text-3xl font-bold bg-gradient-to-r from-darsen-black to-darsen-blue bg-clip-text text-transparent">Our Product Categories</h2>
-          <p className="mt-4 text-xl text-darsen-gray">Explore our diverse range of import and export products</p>
+          <h2 className="text-3xl font-bold bg-gradient-to-r from-darsen-black to-darsen-blue dark:from-white dark:to-blue-400 bg-clip-text text-transparent">Our Product Categories</h2>
+          <p className="mt-4 text-xl text-darsen-gray dark:text-gray-300">Explore our diverse range of import and export products</p>
           <div className="mt-4 w-24 h-1 bg-gradient-to-r from-darsen-blue to-purple-600 mx-auto rounded-full"></div>
         </div>
         
@@ -33,9 +33,9 @@ const Categories = () => {
             <CategoryCard 
               title="Software" 
               description="Cutting-edge software solutions, licenses, and digital products."
-              icon={<Cpu className="h-6 w-6 text-darsen-blue" />}
-              bgColor="bg-gradient-to-br from-white to-blue-50 border border-blue-200"
-              textColor="text-darsen-black"
+              icon={<Cpu className="h-6 w-6 text-darsen-blue dark:text-blue-400" />}
+              bgColor="bg-gradient-to-br from-white to-blue-50 dark:from-gray-800 dark:to-gray-700 border border-blue-200 dark:border-gray-600"
+              textColor="text-darsen-black dark:text-white"
             />
           </div>
           
@@ -53,9 +53,9 @@ const Categories = () => {
             <CategoryCard 
               title="Food Items" 
               description="Premium food products, specialty ingredients, and culinary delights."
-              icon={<Apple className="h-6 w-6 text-darsen-blue" />}
-              bgColor="bg-gradient-to-br from-white to-green-50 border border-green-200"
-              textColor="text-darsen-black"
+              icon={<Apple className="h-6 w-6 text-darsen-blue dark:text-blue-400" />}
+              bgColor="bg-gradient-to-br from-white to-green-50 dark:from-gray-800 dark:to-gray-700 border border-green-200 dark:border-gray-600"
+              textColor="text-darsen-black dark:text-white"
             />
           </div>
         </div>

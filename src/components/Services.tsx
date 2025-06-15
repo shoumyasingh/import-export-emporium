@@ -42,7 +42,7 @@ const services = [
 
 const Services = () => {
   return (
-    <section className="py-16 bg-white relative overflow-hidden">
+    <section className="py-16 bg-white dark:bg-gray-900 relative overflow-hidden transition-colors duration-300">
       {/* Background pattern */}
       <div className="absolute inset-0 opacity-5">
         <div className="absolute inset-0" style={{
@@ -52,19 +52,19 @@ const Services = () => {
       
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="text-center mb-12 animate-fade-in">
-          <h2 className="text-3xl font-bold bg-gradient-to-r from-darsen-black to-darsen-blue bg-clip-text text-transparent">Our Services</h2>
-          <p className="mt-4 text-xl text-darsen-gray">Comprehensive import and export solutions for your business</p>
+          <h2 className="text-3xl font-bold bg-gradient-to-r from-darsen-black to-darsen-blue dark:from-white dark:to-blue-400 bg-clip-text text-transparent">Our Services</h2>
+          <p className="mt-4 text-xl text-darsen-gray dark:text-gray-300">Comprehensive import and export solutions for your business</p>
           <div className="mt-4 w-24 h-1 bg-gradient-to-r from-darsen-blue to-purple-600 mx-auto rounded-full"></div>
         </div>
         
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {services.map((service, index) => (
-            <div key={index} className="bg-white p-6 rounded-2xl border border-gray-200 shadow-lg hover:shadow-2xl transition-all duration-500 group cursor-pointer animate-fade-in" style={{animationDelay: `${index * 100}ms`}}>
+            <div key={index} className="bg-white dark:bg-gray-800 p-6 rounded-2xl border border-gray-200 dark:border-gray-700 shadow-lg hover:shadow-2xl transition-all duration-500 group cursor-pointer animate-fade-in" style={{animationDelay: `${index * 100}ms`}}>
               <div className={`w-14 h-14 rounded-2xl bg-gradient-to-r ${service.color} flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300 text-white shadow-lg`}>
                 {service.icon}
               </div>
-              <h3 className="text-xl font-bold text-darsen-black mb-3 group-hover:text-darsen-blue transition-colors duration-300">{service.title}</h3>
-              <p className="text-darsen-gray leading-relaxed group-hover:text-darsen-black transition-colors duration-300">{service.description}</p>
+              <h3 className="text-xl font-bold text-darsen-black dark:text-white mb-3 group-hover:text-darsen-blue dark:group-hover:text-blue-400 transition-colors duration-300">{service.title}</h3>
+              <p className="text-darsen-gray dark:text-gray-300 leading-relaxed group-hover:text-darsen-black dark:group-hover:text-white transition-colors duration-300">{service.description}</p>
               
               {/* Hover effect indicator */}
               <div className="mt-4 w-0 h-1 bg-gradient-to-r from-darsen-blue to-purple-600 group-hover:w-full transition-all duration-500 rounded-full"></div>
