@@ -1,4 +1,3 @@
-
 import { Link } from "react-router-dom";
 import { Facebook, Twitter, Linkedin, Instagram, ArrowUp } from "lucide-react";
 
@@ -22,11 +21,9 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 relative z-10">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8">
           <div className="lg:col-span-2 animate-fade-in">
-            <img
-              src="/lovable-uploads/logo3.png"
-              alt="Darsen Logo"
-              className="h-22 w-auto mb-4 transform hover:scale-105 transition-transform duration-300"
-            />
+            <div className="text-4xl font-bold bg-gradient-to-r from-white via-blue-300 to-purple-400 bg-clip-text text-transparent mb-4 transform hover:scale-105 transition-transform duration-300">
+              DARSEN
+            </div>
             <p className="text-gray-400 mb-6 max-w-md leading-relaxed">
               Darsen is your trusted partner for global import and export solutions. We connect businesses worldwide with quality products and reliable services.
             </p>

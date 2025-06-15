@@ -14,14 +14,12 @@ const Navbar = () => {
   return (
     <nav className="bg-white/95 backdrop-blur-md sticky top-0 z-50 shadow-lg border-b border-blue-100">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between h-28">
+        <div className="flex justify-between h-16">
           <div className="flex items-center">
             <Link to="/" className="flex-shrink-0 flex items-center group">
-              <img
-                src="/lovable-uploads/logo3.png"
-                alt="Darsen Logo"
-                className="h-22 w-auto transform group-hover:scale-105 transition-transform duration-300"
-              />
+              <div className="text-3xl font-bold bg-gradient-to-r from-darsen-blue via-purple-600 to-darsen-darkBlue bg-clip-text text-transparent transform group-hover:scale-105 transition-transform duration-300">
+                DARSEN
+              </div>
             </Link>
           </div>
           
